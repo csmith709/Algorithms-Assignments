@@ -1,5 +1,15 @@
 package Assignment5;
 
+import Assignment4.Node;
+
+// Charity Smith
+// SD10
+// 8 October 2024
+
+// Implement an application that supports undo and redo functionality. Use a linked list to maintain sequence of states
+// Each state change is stored as a nodes in the list, allowing for easy navigation
+// 1<>2<>3<>4<>5
+
 public class UndoRedoManager<T> {
     private class Node {
         private T state;

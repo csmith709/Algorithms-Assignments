@@ -84,6 +84,16 @@ public class MovieSeatReservation {
         }
     }
 
+    // Find seat by seat number
+    private Seat findSeat(String seatNumber) {
+        for (Seat seat : seats) {
+            if (seat.getSeatNumber().equals(seatNumber)) {
+                return seat;
+            }
+        }
+        return null; // Seat not found
+    }
+
     // Inner Seat class
     private static class Seat {
         private final String seatNumber;
