@@ -5,11 +5,11 @@ package Assignment2;
 // 16/09/2024
 // This program is a double dimensional array that can insert, transverse, search, and delete values in the array.
 
-public class DoubleDimension {
+public class DoubleDimention {
     private int[][] arr = null;
 
     // Initialize the array
-    public DoubleDimension(int numberOfRows, int numberOfColumns) {
+    public DoubleDimention(int numberOfRows, int numberOfColumns) {
         arr = new int[numberOfRows][numberOfColumns];
 
         // Initialize all elements to 0
@@ -96,7 +96,7 @@ public class DoubleDimension {
     }
 
     public static void main(String[] args) {
-        DoubleDimension dd = new DoubleDimension(3, 3);
+        DoubleDimention dd = new DoubleDimention(3, 3);
         // Insert values
         dd.insert(1, 0, 0);
         dd.insert(2, 0, 1);
