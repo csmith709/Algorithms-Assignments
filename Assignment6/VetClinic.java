@@ -93,10 +93,10 @@ class AnimalShelter {
 public class VetClinic {
     public static void main(String[] args) {
         AnimalShelter shelter = new AnimalShelter();
-        shelter.enqueue(new Dog("Buddy", 0));
-        shelter.enqueue(new Cat("Whiskers", 0));
-        shelter.enqueue(new Dog("Max", 0));
-        shelter.enqueue(new Cat("Luna", 0));
+        shelter.enqueue(new Dog("Saxon", 0));
+        shelter.enqueue(new Cat("Orangejello", 0));
+        shelter.enqueue(new Dog("Toque", 0));
+        shelter.enqueue(new Cat("Shelby", 0));
 
         System.out.println("Adopting any animal: " + shelter.dequeueAny().getName());
         System.out.println("Adopting a dog: " + shelter.dequeueDog().getName());
